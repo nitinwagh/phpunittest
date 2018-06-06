@@ -1,0 +1,18 @@
+{
+    "name": "nitin/firstphpunittesting",
+    "description": "my first phpunit testing",
+    "authors": [
+        {
+            "name": "nitin wagh",
+            "email": "nitinwagh2293@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "dev-master"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "app/library"
+        ]
+    }
+}
